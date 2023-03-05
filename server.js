@@ -12,14 +12,14 @@ const createRoom = (clientSocket) => {
   stringifyAndSend(clientSocket, { data: roomId });
 };
 
-const checkRoomsAndJoin = () => {
-  if (roomDontExists())
+const checkRoomsAndJoin = (clientSocket, { roomId }) => {
+  if (roomDontExists(roomId))
     return stringifyAndSend(clientSocket, { error: "sala não encontrada" });
 
-  joinRoom();
+  joinRoom(clientSocket, roomId);
 };
 
-const joinRoom = (clientSocket, { roomId }) => {
+const joinRoom = (clientSocket, roomId) => {
   rooms[roomId].push(clientSocket);
   keepSocketAlive(clientSocket);
 
