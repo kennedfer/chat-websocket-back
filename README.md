@@ -2,7 +2,7 @@
 ### Esse repositorio faz parte de um projeto multirepo e, como devem ter visto, esse é do backend.
 O ponto mais importante é que optei por não usar bibliotecas mais robustas (como a [socket.io](https://socket.io/) por exemplo) pois,<br>
 por mais que sistemas importantissimos em um server de chat, como 'id de usuario' (para mensagens privadas) e sistema de 'rooms', <br>
-a parte divertida do desenvolvimento seria justamente codar esses sistemas.<br>
+**a parte divertida do desenvolvimento seria justamente codar esses sistemas.**<br>
 <br>
 Dito isso, sobre o(s) código e/ou sistemas:
 as rooms são armazenadas em um objeto 'rooms' e elas funcionam de maneira bem simples.<br>
