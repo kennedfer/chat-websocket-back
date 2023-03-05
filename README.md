@@ -74,5 +74,6 @@ delete rooms[roomId]
 
 - Apesar da simplicidade essa é sim uma solução funcional
 - Esse não é (e nem foi pensado para ser) uma super solução de chat online mas é um bom começo
-- E, claro, isso tudo foi só um resumo e vários pontos estão diferentes do codigo real pois eu tenho uma ou outra<br>
-função auxiliar no meio do caminho, a ideia foi passada mas caso tenha algum trecho que 'passou batido' o código completo está disponivel
+- E, claro, isso tudo foi só um resumo e vários pontos estão diferentes do codigo real<br>
+pois eu tenho uma ou outra função auxiliar no meio do caminho,<br>
+a ideia foi passada mas caso tenha algum trecho que 'passou batido' o código completo está disponivel
