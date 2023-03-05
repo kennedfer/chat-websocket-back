@@ -1,0 +1,17 @@
+{
+  "name": "simple-chat-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kennedfer",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.6.1",
+    "websocket": "^1.0.34",
+    "ws": "^8.12.1"
+  }
+}
