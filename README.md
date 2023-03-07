@@ -4,7 +4,7 @@ O ponto mais importante é que optei por não usar bibliotecas mais robustas (co
 por mais que sistemas importantissimos em um server de chat, como 'id de usuario' (para mensagens privadas) e sistema de 'rooms', <br>
 **a parte divertida do desenvolvimento seria justamente codar esses sistemas.**<br>
 <br>
-Dito isso, sobre o(s) código e/ou sistemas:
+Dito isso, sobre o(s) código e/ou sistemas:<br>
 as rooms são armazenadas em um objeto 'rooms' e elas funcionam de maneira bem simples.<br>
 Cada room tem um id aleatório de quatro letras e ela, de maneira bem simplificada, é um array<br>
 de sockets, sendo eles, os usuários/clientes da room;<br>
