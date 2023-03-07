@@ -58,6 +58,8 @@ const EVENT_TYPES = {
 };
 
 server.on("connection", (clientSocket) => {
+  console.log("client conectado");
+
   clientSocket.on("message", (message) => {
     const event = JSON.parse(message);
     EVENT_TYPES[event.type](clientSocket, event);
